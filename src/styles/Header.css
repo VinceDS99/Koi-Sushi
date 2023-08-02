@@ -1,0 +1,23 @@
+.logo:hover, .jap-text:hover, a:hover 
+{
+  filter: drop-shadow(0 0 2em #c3153daa);
+  text-shadow: rgb(205, 6, 2) 3px 0 30px;
+}
+
+.divback 
+{
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 300px; /* Réglez la hauteur du conteneur ici si nécessaire */
+}
+
+.backg 
+{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: bottom; /* Affiche le haut de l'image dans le conteneur */
+}
+

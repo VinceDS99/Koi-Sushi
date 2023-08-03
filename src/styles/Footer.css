@@ -6,3 +6,9 @@
     object-fit: cover;
     object-position: center;
 }
+
+.contactSolution1, .contactSolution2
+{
+
+    background-color: #000000a4;
+}

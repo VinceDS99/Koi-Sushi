@@ -1,0 +1,288 @@
+
+/* Responsive Mobile*/
+
+
+@media screen and (max-width: 767px)
+{
+
+/* Header */
+
+.nav1, .nav2
+{
+    display: none !important;
+}
+
+.jap-text
+{
+    margin-top: 15% !important;
+}
+
+.logo
+{
+    height: 150px !important;
+}
+
+/* Header */
+
+/* Description */
+
+.img1
+{
+    display: none !important;
+}
+
+.accueil
+{
+    margin-top: 0 !important;
+}
+
+.desc-text
+{
+    width: 96% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+}
+
+.desc-text1
+{
+    text-align: justify !important;
+}
+/* Description */
+
+/* Images */
+
+.images
+{
+    flex-wrap: wrap;
+}
+
+.citation
+{
+    width: 100% !important;
+}
+
+.carousel
+{
+    width: 90% !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+}
+
+#arrowRight
+{
+    left: 70% !important;
+}
+
+#numeroImage
+{
+    left: 39% !important
+}
+
+#nbImages
+{
+    left: 42% !important;
+}
+
+/* Images */
+
+/* Localisation */
+
+.location
+{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+
+.location-text
+{
+    width: 96% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+    margin-bottom: 3% !important;
+}
+
+.map
+{
+    width: 96% !important;
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+    margin-bottom: 3% !important;
+    height: 400px !important;
+}
+
+/* Localisation */
+
+/* Footer */ 
+
+.contactSolution1
+{
+    left: 20% !important;
+    top: 50% !important;
+    height: 30px !important;
+}
+
+.contactSolution2
+{
+    left: 20% !important;
+    top: 30% !important;
+    height: 30px !important;
+
+}
+
+/* Footer */ 
+}
+
+/* Responsive Mobile*/
+
+
+
+/* Responsive Ecran 4k*/
+
+@media screen and (min-width:2000px)
+{
+/* Header */
+
+.logo
+{
+    height:  30rem !important;
+}
+
+.jap-text
+{
+    font-size: 3rem !important;
+}
+
+.nav-text
+{
+    font-size: 2rem !important;
+}
+
+.backg
+{
+    height: 400px !important;
+}
+/* Header */
+
+/* Description */
+
+.img1
+{
+    height: 500px !important;
+}
+
+.desc-text1
+{
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+}
+
+.desc-title
+{
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+}
+
+/* Images */
+
+.img-title
+{
+    margin-top: 12% !important;
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+}
+
+.img-name
+{
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+}
+
+.carousel
+{
+    height: 500px !important;
+}
+.img-carousel
+{
+    height: inherit !important;
+}
+
+#numeroImage, #nbImages, .arrow
+{
+    font-size: 2.5rem !important;
+}
+
+/* Images */
+
+/* Menu */ 
+
+.menu-btn
+{
+    height: 9rem !important;
+}
+
+/* Menu */
+
+/* Localisation */
+
+.map
+{
+    width: 50% !important;
+    height: 45rem !important;
+}
+
+.location-title
+{
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+}
+
+.location-txt
+{
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+}
+
+/* Localisation */
+
+/* Contact */
+
+.form-bloc
+{
+    height: 30rem !important;
+    width: 45rem !important;
+}
+
+.form-title
+{
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+}
+
+.form-label
+{
+    font-size: 2rem !important;
+    line-height: 3rem !important;
+}
+
+.form-btn
+{
+    height: 5rem !important;
+    width: 20rem !important;
+
+    font-size: 2rem !important;
+}
+
+/* Contact */
+
+/* Footer */
+
+.contactSolution1, .contactSolution2
+{
+    font-size: 2.3rem !important;
+    line-height: 3rem !important;
+}
+
+/* Footer */
+}
+
+/* Responsive Ecran 4k*/

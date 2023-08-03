@@ -1,17 +1,24 @@
 import '../styles/Accueil.css'
-import food1 from '../assets/food1.webp'
+import '../styles/Responsive.css'
 
+import Descritpion from '../components/Description'
+import Images from '../components/Images'
+import Menu from '../components/Menu'
+import Location from '../components/Location'
+import Contact from '../components/Contact'
 
 export default function Accueil() 
 {
 	return  (
+        <main>
+            
+            <Descritpion/>
+            <Images/>
+            <Menu/>
+            <Location/>
+            <Contact/>
+            
+        </main>
 
-            <div className="accueil  w-[100%] flex mt-[10%] mb-[10%]">
-
-                <img src={food1} className='w-[40%] h-80 '/>
-
-                <h1 className="text-red-600">Nos menus fais avec nos connaissances </h1>
-
-            </div>
-    )
+)
 }

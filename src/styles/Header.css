@@ -1,4 +1,4 @@
-.logo:hover, .jap-text:hover, a:hover 
+.logo:hover, .jap-text:hover, a:hover, button:hover 
 {
   filter: drop-shadow(0 0 2em #c3153daa);
   text-shadow: rgb(205, 6, 2) 3px 0 30px;
@@ -21,3 +21,14 @@
   object-position: bottom; /* Affiche le haut de l'image dans le conteneur */
 }
 
+#jap-text2
+{
+  rotate: Y 180deg;
+}
+
+/* .nav1
+{
+  background-image: url(https://pbs.twimg.com/media/F2kCp8sXUAEU3eS?format=webp&name=small);
+  background-repeat: no-repeat;
+  background-size: contain;
+} */

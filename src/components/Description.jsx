@@ -1,16 +1,19 @@
 import '../styles/Accueil.css'
 import '../styles/Responsive.css'
+import 'aos/dist/aos.css'
+
 
 import food1 from '../assets/food1.webp'
 
 
 export default function Descritpion() 
 {
+
 	return  (
 
             <section className="accueil  w-[100%] flex mt-[10%] mb-[10%]" id="description">
 
-                <img src={food1} className='img1 w-[40%] h-80 '/>
+                <img src={food1} className='img1 w-[40%] h-80 ' alt="Image d'un plat Japonais du restaurant"/>
 
                 <div className="desc-text w-[50%] mr-[5%] ml-[5%] flex  flex-col">
                     <h1 className="desc-title text-red-800  mt-[3%] text-center  text-xl font-semibold">

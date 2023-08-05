@@ -15,7 +15,7 @@ export default function Footer()
                 <span className="contactSolution2 absolute text-white bottom-[35%] left-[25%] text-lg">
                         Mail : koisushi@hotmail.com
                 </span>
-                <img src={japanFooter} className='footerImg h-60 mt-[5%] flex justify-center align-middle '/>
+                <img src={japanFooter} className='footerImg h-60 mt-[5%] flex justify-center align-middle' alt="Image d'une ville Japonaise de nuit"/>
 
         </footer>
 )

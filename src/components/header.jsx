@@ -24,7 +24,7 @@ export default function Header()
                     <span className="jap-text text-red-800 mt-[3%] ml-[3%]">いらっしゃいませ !</span>
 
                     <div className="divimg flex justify-center items-center w-full ">
-                        <img src={koiLogo} alt="Logo" className="logo h-60 flex justify-center align-middle mt-[-6%] mb-[-5%] "/>
+                        <img src={koiLogo} alt="Logo du restaurant" className="logo h-60 flex justify-center align-middle mt-[-6%] mb-[-5%] "/>
                     </div>
 
                     <span className="jap-text text-red-800 mt-[3%] mr-[3%]" id='jap-text2'>いらっしゃいませ !</span>
@@ -42,7 +42,7 @@ export default function Header()
 
 
             <div className="divback">
-                <img src={japanBackground3} alt="Logo" className='backg h-60 flex justify-center align-middle '/>
+                <img src={japanBackground3} alt="Paysage Japonais" className='backg h-60 flex justify-center align-middle '/>
             </div>
 
 

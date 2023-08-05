@@ -4,6 +4,11 @@
   text-shadow: rgb(205, 6, 2) 3px 0 30px;
 }
 
+.logo, .jap-text, a, button 
+{
+  transition: filter 1s ;
+}
+
 .divback 
 {
   max-width: 100%;

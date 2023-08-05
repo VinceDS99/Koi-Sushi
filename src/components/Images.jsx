@@ -4,6 +4,7 @@ import '../styles/Responsive.css'
 import { FaArrowCircleLeft } from 'react-icons/fa';
 import { FaArrowCircleRight } from 'react-icons/fa';
 
+
 export default function Images() 
 {
 
@@ -73,13 +74,13 @@ export default function Images()
                         "La cuisine japonaise n'est pas chose qui se mange, mais chose qui se regarde"
                     </h2>
                     <br/>
-                    <p className="img-name text-black text-center text-lg font-bold">
+                    <span className="img-name text-black text-center text-lg font-bold">
                         -Junichiro Tanizaki                    
-                    </p>
+                    </span>
                 </div>
 
                 <div className="carousel w-[50%]">
-                    <img src={pictures} className='img-carousel w-[100%] h-80 object-cover' id="imageCarousel"/>
+                    <img src={pictures} className='img-carousel w-[100%] h-80 object-cover' id="imageCarousel" alt="Image d'un plat du restaurant"/>
                     <div className="w-[100%] absolute bottom-[20%]">
                         <FaArrowCircleLeft  className='arrow text-white  text-3xl absolute left-[10%] hover:cursor-pointer' id='arrowLeft' onClick={() => getPicturePrev()}/>
                         <div className="relative">

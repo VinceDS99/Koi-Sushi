@@ -44,14 +44,14 @@ export default function Contact()
                             <label className="form-label block text-gray-700 text-sm font-bold mb-2" for="mail">
                                 Mail
                             </label>
-                            <input required className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Mail"/>
+                            <input required id='mail' className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="mail" placeholder="Mail"/>
                         </div>
 
                         <div class="mb-6">
-                            <label className="form-label block text-gray-700 text-sm font-bold mb-2" for="password">
+                            <label className="form-label block text-gray-700 text-sm font-bold mb-2" for="message">
                                 Message
                             </label>
-                            <textarea required className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Votre message" rows="5"/>
+                            <textarea required id='message' className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Votre message" rows="5"/>
                         </div>
 
                         <div className="flex items-center justify-between">
